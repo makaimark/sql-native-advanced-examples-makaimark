@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - sql_advanced@localhost" uuid="d6eba687-1980-4766-abe1-21f4284ed32d">
+      <secret-storage>master_key</secret-storage>
+      <user-name>makaimark</user-name>
+      <schema-pattern>sql_advanced.pg_catalog sql_advanced.public</schema-pattern>
+      <default-schemas>sql_advanced.public</default-schemas>
+    </data-source>
+  </component>
+</project>

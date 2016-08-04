@@ -13,3 +13,11 @@ Write an SQL file that:
 
 How should you generate an SQL big like this? :-) Our advices is just one word: Python...
 */
+
+BEGIN;
+TRUNCATE TABLE mentor_candidates;
+
+COPY mentor_candidates (first_name, last_name, phone_number, email, city, level, birth_year)
+FROM '/home/makaimark/Desktop/Codecool/sql-native-advanced-examples-makaimark/fake_mentor_candidates.csv'
+WITH DELIMITER ',';
+END;
